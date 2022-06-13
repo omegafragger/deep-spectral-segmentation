@@ -1,0 +1,17 @@
+/var/spool/slurmd/job65345/slurm_script: line 7: activate: No such file or directory
+127.0.0.1 localhost
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+10.100.72.229 a100-st-p4d24xlarge-4.sernamlim-9b9f0231-9c23-4a74-afff-2e717c3130f2.pcluster a100-st-p4d24xlarge-4
+Traceback (most recent call last):
+  File "extract.py", line 5, in <module>
+    import cv2
+  File "/data/home/mukhotij/miniconda/envs/pytorch/lib/python3.8/site-packages/cv2/__init__.py", line 9, in <module>
+    from .cv2 import _registerMatType
+ImportError: cannot import name '_registerMatType' from 'cv2.cv2' (/data/home/mukhotij/miniconda/envs/pytorch/lib/python3.8/site-packages/cv2/cv2.cpython-38-x86_64-linux-gnu.so)
